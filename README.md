@@ -1,4 +1,4 @@
-# Ticketing_System_Backend | # Devtrack
+# Devtrack
 
 A Django-based issue tracking API that stores data in flat JSON files.
 
