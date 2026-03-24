@@ -77,3 +77,14 @@ Response includes a `describe` field derived from the issue's priority class:
 Instead of handling priority with conditionals scattered through the codebase, the `create_issue` view instantiates a different class (`CriticalIssue`, `LowPriorityIssue`, or base `Issue`) based on the incoming `priority` field. Each class overrides `describe()` to return a priority-appropriate message.
 
 This keeps priority-specific behaviour encapsulated in the model layer and makes it easy to add new priority types (e.g. `UrgentIssue`) without touching the view logic.
+
+##Screenshots of testing API
+<img width="1018" height="595" alt="Screenshot 2026-03-24 at 6 14 17 PM" src="https://github.com/user-attachments/assets/050bbde3-a83d-4205-9918-1cf80e8cabc7" />
+
+<img width="1018" height="595" alt="Screenshot 2026-03-24 at 6 18 53 PM" src="https://github.com/user-attachments/assets/65f2b13c-b4e3-4ef4-96f8-21f94a07399a" />
+
+<img width="1018" height="595" alt="Screenshot 2026-03-24 at 6 18 00 PM" src="https://github.com/user-attachments/assets/8733959f-681b-40a3-a86b-2cf868775be7" />
+
+<img width="1018" height="672" alt="Screenshot 2026-03-24 at 6 33 49 PM" src="https://github.com/user-attachments/assets/80bcbf77-7a30-42ab-a76a-4b580f9c6004" />
+
+<img width="1018" height="551" alt="Screenshot 2026-03-24 at 6 38 36 PM" src="https://github.com/user-attachments/assets/9d6a0d20-fdf9-4e53-b7a4-625c7eede789" />
